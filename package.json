@@ -1,0 +1,10 @@
+{
+  "name": "angularjs-playground",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "bulma": "0.7.1",
+    "angular": "1.6.9",
+    "@uirouter/angularjs": "1.0.15"
+  }
+}

@@ -1,0 +1,9 @@
+<h3>
+  <span>Shows</span>
+  <span style="float: right">{{$ctrl.time}}</span>
+</h3>
+
+<accordion ng-repeat="show in $ctrl.shows">
+  <accordion-header>{{show.name}}</accordion-header>
+  <accordion-body>{{show.description}}</accordion-body>
+</accordion>
